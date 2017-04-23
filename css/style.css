@@ -1,0 +1,118 @@
+body{
+    background: antiquewhite;
+    font-family: cursive
+}
+input, select{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    width: 100%;
+}
+.content {
+    width: 750px;
+    height: 45%;
+    display: block;
+    top: 20%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1%;
+    background: white;
+    position: relative;
+    border-radius: 15px;
+}
+.filters, .motes, .victimas{
+    width: 32%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top
+}
+.filters .categorias, .filters .buscador{
+    padding-right: 2%;
+}
+.motes{
+    overflow-y: scroll;
+}
+.add {
+    width: 30px;
+    height: 30px;
+    background: #22a522;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #22a522;
+    position: absolute;
+    left: 10px;
+    display: inline-block;
+    bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer
+}
+.add:hover{
+    color: #22a522;
+    background: white;
+}
+.categorias select{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.mote{
+    padding: 10px 0
+}
+.general{
+    background: rgba(255,0,0,0.2)
+}
+.sin-identificar{
+    background: rgba(0,255,0,0.2)
+}
+.sospechas{
+    background: rgba(0,0,255,0.2)
+}
+.genericos{
+    background: rgba(255,255,0,0.2)
+}
+.grupos{
+    background: rgba(255,0,255,0.2)
+}
+.extrabajadores{
+    background: rgba(0,255,255,0.2)
+}
+#bloqueador{
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.6)
+}
+#modal {
+    position: relative;
+    top: 35%;
+    border-radius: 5px;
+    background: white;
+    width: 300px;
+    height: 150px;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.campo span{
+    text-align: center;
+    display: block;
+}
+.campo input, .campo select{
+    width: 100%;
+}
+.add.new {
+    position: initial;
+    width: 80px;
+    margin: 10px auto;
+    font-size: 16px;
+    height: 27px;
+}
+.mal{
+    border-color: red;
+}
+.victimas small{
+    color: #555
+}
