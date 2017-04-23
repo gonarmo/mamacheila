@@ -4,7 +4,7 @@ class Conector {
     var $conexion;
     function __construct() {
         $servername = "localhost";
-        $username = "root";
+        $username = "gonarmo";
         $password = "";
         $dbname = "motes";
         $this->conexion= new mysqli($servername, $username, $password, $dbname);
